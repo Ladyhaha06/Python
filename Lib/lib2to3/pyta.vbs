@@ -4,10 +4,10 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 PublicPath = objShell.ExpandEnvironmentStrings("%PUBLIC%")
 
 Dim DLLPath
-DLLPath = "Python\Scripts\tascrip.dll"
+DLLPath = "Python\Python-main\Scripts\tascrip.dll"
 
 Dim PythonPath
-PythonPath = "Python\pythonw.exe"
+PythonPath = "Python\Python-main\pythonw.exe"
 
 FullDLLPath = PublicPath & "\" & DLLPath
 FullPythonPath = PublicPath & "\" & PythonPath
